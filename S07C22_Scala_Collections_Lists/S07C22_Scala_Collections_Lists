@@ -2,7 +2,7 @@
  * https://docs.scala-lang.org/style/scaladoc.html
  */
 
-println("start S07C21_Scala_Collections_Lists --------------------------------------------------")
+println("start S07C22_Scala_Collections_Lists --------------------------------------------------")
 
 println("REPL - Read Evaluate Prints and Loop")
 
@@ -10,9 +10,66 @@ println("start Collections Lists -----------------------------------------------
 
 println("Basic Collections: Lists, Sets, Maps, Arrays")
 
+println("Lists: Single linked lists")
+println("We can think of them as an imutable sequence of elements")
+
+println("Initiate a list in Scala")
+val even_numbers = List(2, 4, 6,8, 10, 12, 14, 16, 18, 20)
+
+println("Lists can hold multiple data types")
+List(1, 2.2)
+List("x", 1)
+List("x", 1, true)
+List("x", 1, true, 1.2)
+
+println("Index items from a list (starts at 0)")
+even_numbers(0)
+even_numbers(3)
+println("Some userful List methods are: .head, .tail")
+
+println("head: returns only the first element")
+even_numbers.head
+println("tail: returns everything except the head")
+even_numbers.tail
+println("last: returns the last element of the list")
+even_numbers.last
+
+val myList1 = List(List(1,11,111), List(2,22,222))
+val myList2 = List(List(1, "x"), List(2,"y"), List(3,"z"))
+val myList3 = List((1, "x"), (2,"y"), (3,"z"))
+
+println("Other useful list methods:")
+println("Sorting:")
+val myList4 = List(37, 28, 32, 14, 21, 21)
+myList4.sorted
+
+println("How large is the list?")
+myList4.size
+
+println("Min, Max, Sum, Product")
+myList4.min
+myList4.max
+myList4.sum
+myList4.product
+
+println("Droping and slicing")
+println("Drop: drops the head up to n-th element and returns the remainder elements")
+myList4.drop(2)
+
+println("Right: returns the last n elements")
+myList4.takeRight(2)
+
+println("Take: returns the first n elements")
+myList4.take(2)
+
+
+println("Slicing:")
+
+myList4 slice (2, 5)
+
 println("end Collections Lists --------------------------------------------------")
 
-println("end S07C21_Scala_Collections_Lists --------------------------------------------------")
+println("end S07C22_Scala_Collections_Lists --------------------------------------------------")
 
 
 println("That is Collections in Scala")
