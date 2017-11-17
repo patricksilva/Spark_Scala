@@ -50,8 +50,16 @@ printf("Interpolating strings with printf function: String %s, integer %05d, flo
 
 println("end String Interpolation --------------------------------------------------")
 
-println(" start TOPIC --------------------------------------------------")
-println("")
+val st = "The early bird catches the worm."
+
+println("For Strings, indexing starts at ZERO - 0")
+
+println("start REGEX --------------------------------------------------")
+println("Getting characters at a certain index locations")
+println("end REGEX  --------------------------------------------------")
+
+println("start TOPIC --------------------------------------------------")
+println("Slicing a String object")
 println("end TOPIC  --------------------------------------------------")
 
 println("end S06C16_Strings_and_Basic_Regex --------------------------------------------------")
