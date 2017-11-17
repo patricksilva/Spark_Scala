@@ -8,6 +8,24 @@ println("REPL - Read Evaluate Prints and Loop")
 
 println("Booleans and Comparison Operators")
 
+println("true")
+true
+println("false")
+false
+println("2 > 3")
+2 > 3
+println("1 != 0")
+1 != 0
+println("10 == 10")
+10 == 10
+
+println("Printing divident mod divisor or remainder")
+println("3 % 2")
+3 % 2 == true
+
+println("4 % 2")
+4 % 2
+
 println(" end Booleans and Comparison Operators --------------------------------------------------")
 
 
