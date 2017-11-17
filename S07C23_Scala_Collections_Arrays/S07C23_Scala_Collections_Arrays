@@ -10,8 +10,16 @@ println("start Collections Arrays ----------------------------------------------
 
 println("Basic Collections: Lists, Sets, Maps, Arrays")
 
-println("Arrays:")
-println("")
+println("Arrays are mutable")
+
+println("Instantiating an array")
+val array1 = Array(1,2,3,4,5)
+
+println("Using the RANGE function to generate a sequence of increasing integers:")
+Range(0, 16)
+Range(0, 16, 2)
+Range(4, 16, 4)
+
 
 println("end Collections Arrays --------------------------------------------------")
 
@@ -44,3 +52,6 @@ println("http://scala-lang.org/files/archive/spec/2.12/12-the-scala-standard-lib
 
 println("Stackoverflow - Difference between array and list in Scala")
 println("https://stackoverflow.com/questions/2712877/difference-between-array-and-list-in-scala")
+
+println("Vertical Block Selection and Editing in Atom is Amazing")
+println("https://jeffreifman.com/2016/10/19/vertical-block-selection-editing-atom-amazing/")
