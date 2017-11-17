@@ -8,6 +8,8 @@ println("REPL - Read Evaluate Prints and Loop")
 
 println("start Collections --------------------------------------------------")
 
+println("Basic Collections: Lists, Sets, Maps, Arrays")
+
 println("end Collections --------------------------------------------------")
 
 println("end S07C21_Scala_Collections --------------------------------------------------")
