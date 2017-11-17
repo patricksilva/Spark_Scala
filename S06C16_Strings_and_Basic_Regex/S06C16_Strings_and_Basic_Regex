@@ -1,0 +1,26 @@
+/**
+ * https://docs.scala-lang.org/style/scaladoc.html
+ */
+
+println(" start S06C16_Strings_and_Basic_Regex --------------------------------------------------")
+
+println("REPL - Read Evaluate Prints and Loop")
+
+println("Strings and Basic Regex")
+
+println("")
+
+
+println(" end S06C16_Strings_and_Basic_Regex --------------------------------------------------")
+
+
+println(" start TOPIC 2 --------------------------------------------------")
+println(" end TOPIC 2 --------------------------------------------------")
+
+println("That is Strings and Basic Regex in Scala")
+println("Recap:")
+
+println("Happy analysing!")
+
+// Read more - Atom keyboard shortcuts
+// https://github.com/nwinkler/atom-keyboard-shortcuts
