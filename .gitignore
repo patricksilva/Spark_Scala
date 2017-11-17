@@ -1,7 +1,11 @@
 # Created by https://www.gitignore.io/api/scala
-
 ### Scala ###
 *.class
 *.log
-
 # End of https://www.gitignore.io/api/scala
+
+
+# https://apache.googlesource.com/spark/+/master/.gitignore
+### Atom Derby Metastore ###
+**/metastore_db/
+# End of https://apache.googlesource.com/spark/+/master/.gitignore
