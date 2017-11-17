@@ -46,7 +46,7 @@ val msg4 = f"Thank you $name!"
 println("String Interpolation using printf method")
 val msg5 = f"Thank you ${name}!"
 val msg6 = f"Thank you $name!"
-printf("Interpolating strings with printf function: String %s, integer %15d, float %f\r\n", "TEXT", 10, 6.281234, 5)
+printf("Interpolating strings with printf function: String %s, integer %05d, float %010.2f\r\n", "TEXT", 10, 6.281234, 5)
 
 println("end String Interpolation --------------------------------------------------")
 
@@ -73,3 +73,9 @@ println("https://issues.scala-lang.org/browse/SI-6476")
 
 println("SCALA DOCUMENTATION - String Interpolation")
 println("https://docs.scala-lang.org/overviews/core/string-interpolation.html")
+
+println("JAVA DOCUMENTATION - The formats allowed after the % character are outlined in the Formatter javadoc.")
+println("https://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html#detail")
+
+println("Scala 2.10 idiosyncrasies")
+println("https://stackoverflow.com/questions/8131291/how-to-convert-an-int-to-a-string-of-a-given-length-with-leading-zeros-to-align")
