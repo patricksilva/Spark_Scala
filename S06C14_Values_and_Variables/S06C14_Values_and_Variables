@@ -1,0 +1,19 @@
+/**
+ * https://docs.scala-lang.org/style/scaladoc.html
+ */
+
+println("REPL - Read Evaluate Prints and Loop")
+
+println("Basic values and variables in Scala")
+
+println("val X var")
+
+println("val -> immutable (can not be reassigned)")
+println("var -> mutable (can be reassigned)")
+
+println("When  reassigning, the same Data Type must be used!")
+
+println("That is values and variables in Scala")
+println("Happy analysing!")
+
+// Read more - Spark Shell
