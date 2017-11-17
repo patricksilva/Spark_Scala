@@ -2,6 +2,8 @@
  * https://docs.scala-lang.org/style/scaladoc.html
  */
 
+println(" start val and var --------------------------------------------------")
+
 println("REPL - Read Evaluate Prints and Loop")
 
 println("Basic values and variables in Scala")
@@ -13,7 +15,66 @@ println("var -> mutable (can be reassigned)")
 
 println("When  reassigning, the same Data Type must be used!")
 
+println("Data types:")
+println("Int")
+println("Double")
+println("String")
+println("Boolean")
+println("Collections (Java Collections Framework!)")
+
+println("val <name>:<type> = <literal>")
+println("var <name>:<type> = <literal>")
+
+println("Later on we will see that Scala can also infer the data type")
+
+println("Examples:")
+
+println("var myvar: Int = 10")
+var myvar: Int = 10
+println("val myval: Double = 2.5")
+val myval: Double = 2.5
+myval
+
+println("Reassigning with different data types:")
+println("myvar = 'Hello!'")
+myvar = "Hello!"
+
+println("Reassigning with the same data types:")
+println("myvar = 1000")
+myvar = 1000
+
+println("Reassigning values:")
+myval = 3.14
+myval
+
+println("We use values in order to avoid undesired re-assignments.")
+println("Especially when dealing with Big Data and larger chunks of code.")
+
+println(" end val and var --------------------------------------------------")
+
+
+println(" start infering data types --------------------------------------------------")
+println("Inferring the data type based on the literal:")
+println("val c = 12")
+val c = 12
+
+println("")
+val my_string = "Hello"
+
+println("Identifier names follows the same rules that applies to JAVA programming language.")
+val 2much = 1000
+println("Avoid dots in literal names. Ex: my.string")
+val my.string = "this does not works"
+val `my.string` = "this works, but it is not recommended"
+
+println(" end infering data types --------------------------------------------------")
+
 println("That is values and variables in Scala")
+println("Recap:")
+println("Variables can be reassigned")
+println("Values can NOT be reassigned")
+println("Remember valid and good practice naming convention schemes")
 println("Happy analysing!")
 
-// Read more - Spark Shell
+// Read more - Atom keyboard shortcuts
+// https://github.com/nwinkler/atom-keyboard-shortcuts
