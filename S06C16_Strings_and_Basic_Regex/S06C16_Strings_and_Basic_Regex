@@ -2,7 +2,7 @@
  * https://docs.scala-lang.org/style/scaladoc.html
  */
 
-println(" start S06C16_Strings_and_Basic_Regex --------------------------------------------------")
+println("start S06C16_Strings_and_Basic_Regex --------------------------------------------------")
 
 println("REPL - Read Evaluate Prints and Loop")
 
@@ -18,7 +18,7 @@ val fullname = "John" + " " + "Smith"
 println("String repetition")
 println("Zum " * 10)
 
-println(" start String Methods --------------------------------------------------")
+println("start String Methods --------------------------------------------------")
 println("In spark-shell we can typein 'fullname.' and then press TAB key.")
 println("That will show a list of all String methods available for us.")
 println("Ex: fullname.length")
@@ -29,18 +29,47 @@ println("fullname.length()")
 fullname.length()
 println("Produces the same result.")
 println("The method length returns the number of elements in a string")
-println(" end String Methods --------------------------------------------------")
+println("end String Methods --------------------------------------------------")
 
 
-println(" start String Interpolation --------------------------------------------------")
-println(" end String Interpolation --------------------------------------------------")
+println("start String Interpolation --------------------------------------------------")
+println("val name = John")
+val name = "John"
+println("String Interpolation using s")
+val msg1 = s"Thank you ${name}!"
+val msg2 = s"Thank you $name!"
 
-println(" end S06C16_Strings_and_Basic_Regex --------------------------------------------------")
+println("String Interpolation using f")
+val msg3 = f"Thank you ${name}!"
+val msg4 = f"Thank you $name!"
+
+println("String Interpolation using printf method")
+val msg5 = f"Thank you ${name}!"
+val msg6 = f"Thank you $name!"
+printf("Interpolating strings with printf function: String %s, integer %15d, float %f\r\n", "TEXT", 10, 6.281234, 5)
+
+println("end String Interpolation --------------------------------------------------")
+
+println(" start TOPIC --------------------------------------------------")
+println("")
+println("end TOPIC  --------------------------------------------------")
+
+println("end S06C16_Strings_and_Basic_Regex --------------------------------------------------")
+
+
+
 
 println("That is Strings and Basic Regex in Scala")
 println("Recap:")
 
 println("Happy analysing!")
 
-// Read more - Atom keyboard shortcuts
-// https://github.com/nwinkler/atom-keyboard-shortcuts
+println("READ MORE ----------------------")
+println("Atom keyboard shortcuts")
+println("https://github.com/nwinkler/atom-keyboard-shortcuts")
+
+println("slash-doublequotes escape does not work with string interpolation")
+println("https://issues.scala-lang.org/browse/SI-6476")
+
+println("SCALA DOCUMENTATION - String Interpolation")
+println("https://docs.scala-lang.org/overviews/core/string-interpolation.html")
