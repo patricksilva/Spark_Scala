@@ -44,7 +44,7 @@ myNewSet
 
 println("end Collections Arrays --------------------------------------------------")
 
-println("end S07C23_Scala_Collections_Sets --------------------------------------------------")
+println("end S07C24_Scala_Collections_Sets --------------------------------------------------")
 
 
 println("That is Sets in Scala")
