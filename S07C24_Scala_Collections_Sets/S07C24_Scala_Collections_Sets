@@ -66,8 +66,8 @@ println("https://docs.scala-lang.org")
 println("Scala Documentation Collections Sets")
 println("https://docs.scala-lang.org/overviews/collections/sets.html")
 
-println("Scala - Arrays")
-println("https://www.tutorialspoint.com/scala/scala_lists.htm")
+println("Scala - Sets")
+println("https://www.tutorialspoint.com/scala/scala_sets.htm")
 
 println("Scala Language Specification")
 println("http://scala-lang.org/files/archive/spec/2.12/")
