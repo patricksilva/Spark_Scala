@@ -52,15 +52,27 @@ println("end String Interpolation ----------------------------------------------
 
 val st = "The early bird catches the worm."
 
+println("start Manipulating Strings --------------------------------------------------")
 println("For Strings, indexing starts at ZERO - 0")
 
-println("start REGEX --------------------------------------------------")
 println("Getting characters at a certain index locations")
-println("end REGEX  --------------------------------------------------")
+st.charAt(12)
+println("Locating the index of the first occurrence of the string 'ch'")
+st.indexOf("ch")
+
+println("Taking a slice of a string")
+st slice (15, 32)
+st.length
+println("end Manipulating Strings --------------------------------------------------")
+
+
+
+println("start REGEX --------------------------------------------------")
+println("end REGEX --------------------------------------------------")
 
 println("start TOPIC --------------------------------------------------")
 println("Slicing a String object")
-println("end TOPIC  --------------------------------------------------")
+println("end TOPIC --------------------------------------------------")
 
 println("end S06C16_Strings_and_Basic_Regex --------------------------------------------------")
 
