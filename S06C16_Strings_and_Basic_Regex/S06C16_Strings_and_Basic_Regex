@@ -65,18 +65,17 @@ st slice (15, 32)
 st.length
 println("end Manipulating Strings --------------------------------------------------")
 
-
-
 println("start REGEX --------------------------------------------------")
+println("Pattern Matching")
+val st = "substr1 substr2 substr3"
+st matches "substr"
+st contains "substr"
 println("end REGEX --------------------------------------------------")
 
 println("start TOPIC --------------------------------------------------")
-println("Slicing a String object")
 println("end TOPIC --------------------------------------------------")
 
 println("end S06C16_Strings_and_Basic_Regex --------------------------------------------------")
-
-
 
 
 println("That is Strings and Basic Regex in Scala")
@@ -99,3 +98,12 @@ println("https://docs.oracle.com/javase/6/docs/api/java/util/Formatter.html#deta
 
 println("Scala 2.10 idiosyncrasies")
 println("https://stackoverflow.com/questions/8131291/how-to-convert-an-int-to-a-string-of-a-given-length-with-leading-zeros-to-align")
+
+println("Scala Standard Library 2.12.3")
+println("http://www.scala-lang.org/api/2.12.3/scala/collection/immutable/List.html")
+
+println("Scala Standard Library 2.12.1 - scala.util.matching Regex")
+println("http://www.scala-lang.org/api/2.12.1/scala/util/matching/Regex.html")
+
+println("Scala Documentation Collections Sets")
+println("https://docs.scala-lang.org/overviews/collections/sets.html")
