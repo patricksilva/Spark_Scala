@@ -3,12 +3,59 @@
  */
 
 // https://stackoverflow.com/questions/32808053/spark-shell-command-lines
-:help
+// :help
 
 // REPL - Read Evaluate Prints and Loop
 
 // Basic Arithmetic and numbers with Scala
+println("Integers")
+100
 
+println("Floating points")
+2.5
+
+println("Addition")
+1 + 1
+
+println("Subtraction")
+2 - 1
+
+println("Multiplication")
+2 * 5
+
+println("Division with integers, 1 / 2, in Scala is going to perform what is known as"
++ " classic divition")
+1 / 2
+
+println("Real divivion 1.0 / 2")
+1.0 / 2
+
+println("There is no base library for exponents."
++ " We have to import math package and use: math.pow(4,2)")
+math.pow(4,2)
+
+println("We can call previous results using 'resX' where X is the desired result")
+println("res9")
+res9
+println("res10")
+res10
+println("res11")
+res11
+println("res12")
+res12
+
+
+println("Precedence order of operations: ()")
+println("1 + 2 * 3 + 4")
+1 + 2 * 3 + 4
+println("(1 + 2) * (3 + 4)")
+(1 + 2) * (3 + 4)
+
+println("Excercise: Convert 3 feets to meters using Scala")
+3 * .3048
+
+println("That is the basics of arithmetic and numbers in Scala")
+println("Happy analysing!")
 
 // Read more - Spark Shell
 // https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-shell.html
