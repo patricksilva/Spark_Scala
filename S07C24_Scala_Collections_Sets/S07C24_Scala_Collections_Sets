@@ -14,6 +14,33 @@ println("Definition: A set is a collection that contains no duplicate elements."
 println("Each element in a set is a unique element.")
 println("There are mutable and immutable Sets")
 
+println("Initializing an immutable empty set")
+val set1 = Set()
+val set2 = Set(1, 2, 3)
+val set3 = Set(1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3)
+
+println("Initializing mutable sets")
+val set4 = collection.mutable.Set(1, 2, 3)
+
+println("Adding elements to a mutable set")
+set4 += 4
+println("Adding elements to a IMMUTABLE set returns an error")
+set3 += 4
+
+println("")
+val imutaveis = collection.mutable.Set(1,2,3)
+imutaveis += 4
+println("Another way to add an element to a MUTABLE set is using the method 'add'")
+imutaveis.add(5)
+
+println("A set does not mantain an order.")
+println("IMPORTANT: We can not pick an element from a set using indexes like in lists or arrays.")
+imutaveis
+
+println("Casting to a set in order to get a unique list of numbers")
+val myList = List(1, 2, 3, 1, 2, 3)
+val myNewSet = myList.toSet
+myNewSet
 
 println("end Collections Arrays --------------------------------------------------")
 
@@ -22,7 +49,11 @@ println("end S07C23_Scala_Collections_Sets -------------------------------------
 
 println("That is Sets in Scala")
 println("Recap:")
-println("")
+println("How to create a set? Set() for immutable for immutables sets "
+      + "and collection.mutable.Set() for mutables sets")
+println("How to add items to a mutable set? Use += or mySet.add(n)")
+println("Sets does not retain any sort of order.")
+
 println("Happy analysing!")
 
 println("READ MORE ----------------------")
