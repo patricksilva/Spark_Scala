@@ -1,0 +1,56 @@
+/**
+ * https://docs.scala-lang.org/style/scaladoc.html
+ */
+
+println("start S07C25_Scala_Collections_Maps --------------------------------------------------")
+
+println("REPL - Read Evaluate Prints and Loop")
+
+println("start Collections Maps --------------------------------------------------")
+
+println("Basic Collections: Lists, Sets, Maps, Arrays")
+
+println("Definition: ")
+
+
+println("end Collections Maps --------------------------------------------------")
+
+println("end S07C25_Scala_Collections_Maps --------------------------------------------------")
+
+
+println("That is Maps in Scala")
+println("Recap:")
+
+
+println("Happy analysing!")
+
+println("READ MORE ----------------------")
+println("Atom keyboard shortcuts")
+println("https://github.com/nwinkler/atom-keyboard-shortcuts")
+
+println("SCALA DOCUMENTATION")
+println("https://docs.scala-lang.org")
+
+println("Scala Documentation Collections Maps")
+println("https://docs.scala-lang.org/overviews/collections/maps.html")
+
+println("Scala Language Specification")
+println("http://scala-lang.org/files/archive/spec/2.12/")
+
+println("Scala Language Specification - The Scala Standard Library")
+println("http://scala-lang.org/files/archive/spec/2.12/12-the-scala-standard-library.html")
+
+println("Scala - Maps")
+println("https://www.tutorialspoint.com/scala/scala_maps.htm")
+
+println("Stackoverflow - Maps in Scala")
+println("https://stackoverflow.com")
+
+println("Vertical Block Selection and Editing in Atom is Amazing")
+println("https://jeffreifman.com/2016/10/19/vertical-block-selection-editing-atom-amazing/")
+
+println("JAVA DOCUMENTATION - Immutable")
+println("https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html")
+
+println("Immutable Object - Wikipedia")
+println("https://en.wikipedia.org/wiki/Immutable_object")
