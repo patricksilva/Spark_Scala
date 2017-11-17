@@ -10,6 +10,8 @@ println("start Collections Sets ------------------------------------------------
 
 println("Basic Collections: Lists, Sets, Maps, Arrays")
 
+println("Definition: A set is a collection that contains no duplicate elements.")
+println("Each element in a set is a unique element.")
 println("There are mutable and immutable Sets")
 
 
