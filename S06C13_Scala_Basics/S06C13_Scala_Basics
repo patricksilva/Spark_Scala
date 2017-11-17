@@ -1,0 +1,14 @@
+/**
+ * https://docs.scala-lang.org/style/scaladoc.html
+ */
+
+// https://stackoverflow.com/questions/32808053/spark-shell-command-lines
+:help
+
+// REPL - Read Evaluate Prints and Loop
+
+// Basic Arithmetic and numbers with Scala
+
+
+// Read more - Spark Shell
+// https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/spark-shell.html
