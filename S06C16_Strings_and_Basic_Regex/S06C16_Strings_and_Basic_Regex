@@ -8,14 +8,34 @@ println("REPL - Read Evaluate Prints and Loop")
 
 println("Strings and Basic Regex")
 
-println("")
+println("Strings in Scala must be enclosed by double quotes.")
+println("hello")
+println('hello')
 
+println("String Concatenation")
+val fullname = "John" + " " + "Smith"
+
+println("String repetition")
+println("Zum " * 10)
+
+println(" start String Methods --------------------------------------------------")
+println("In spark-shell we can typein 'fullname.' and then press TAB key.")
+println("That will show a list of all String methods available for us.")
+println("Ex: fullname.length")
+fullname.length
+println("(notice that length was called without parenthesis.")
+println("In this case it is optional.")
+println("fullname.length()")
+fullname.length()
+println("Produces the same result.")
+println("The method length returns the number of elements in a string")
+println(" end String Methods --------------------------------------------------")
+
+
+println(" start String Interpolation --------------------------------------------------")
+println(" end String Interpolation --------------------------------------------------")
 
 println(" end S06C16_Strings_and_Basic_Regex --------------------------------------------------")
-
-
-println(" start TOPIC 2 --------------------------------------------------")
-println(" end TOPIC 2 --------------------------------------------------")
 
 println("That is Strings and Basic Regex in Scala")
 println("Recap:")
