@@ -1,0 +1,23 @@
+/**
+ * https://docs.scala-lang.org/style/scaladoc.html
+ */
+
+println(" start S06C15_Booleans_and_Comparison_Operators --------------------------------------------------")
+
+println("REPL - Read Evaluate Prints and Loop")
+
+println("Booleans and Comparison Operators")
+
+println(" end Booleans and Comparison Operators --------------------------------------------------")
+
+
+println(" start TOPIC 2 --------------------------------------------------")
+println(" end TOPIC 2 --------------------------------------------------")
+
+println("That is Booleans and Comparison Operators in Scala")
+println("Recap:")
+
+println("Happy analysing!")
+
+// Read more - Atom keyboard shortcuts
+// https://github.com/nwinkler/atom-keyboard-shortcuts
