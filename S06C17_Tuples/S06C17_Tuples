@@ -1,0 +1,54 @@
+/**
+ * https://docs.scala-lang.org/style/scaladoc.html
+ */
+
+println("start S06C17_Tuples --------------------------------------------------")
+
+println("REPL - Read Evaluate Prints and Loop")
+
+println("start TUPLES --------------------------------------------------")
+
+println("Declaring a tuple:")
+println("(2, 3.14, 'Birds fly in a flock together.')")
+(2, 3.14, "Birds fly in a flock together.")
+
+val myTuple1 = (2, 3.14, "Birds fly in a flock together.")
+
+println("Tuples can be nested:")
+val myTuple2 = (2.72, myTuple1)
+
+println("Accessing elements within a tuple:")
+println("Tuple's elements indexes start at 1")
+
+println("To access elements inside a tuple, we use dot and underscore 'identifier._n'")
+myTuple2._2
+myTuple2._2._3
+
+println("end TUPLES --------------------------------------------------")
+
+println("end S06C17_Tuples --------------------------------------------------")
+
+
+println("That is Tuples in Scala")
+println("Recap:")
+println("Tuples are an ordered sequence of values that can hold multiple data types.")
+println("Happy analysing!")
+
+println("READ MORE ----------------------")
+println("Atom keyboard shortcuts")
+println("https://github.com/nwinkler/atom-keyboard-shortcuts")
+
+println("SCALA DOCUMENTATION")
+println("https://docs.scala-lang.org")
+
+println("Scala Documentation Collections Sets")
+println("https://docs.scala-lang.org/overviews/collections/sets.html")
+
+println("Scala - Tuples")
+println("https://www.tutorialspoint.com/scala/scala_tuples.htm")
+
+println("Scala Language Specification")
+println("http://scala-lang.org/files/archive/spec/2.12/")
+
+println("Scala Language Specification - Tuple types")
+println("http://scala-lang.org/files/archive/spec/2.12/03-types.html#tuple-types")
