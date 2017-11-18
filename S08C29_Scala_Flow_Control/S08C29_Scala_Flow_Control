@@ -1,0 +1,48 @@
+/**
+ * https://docs.scala-lang.org/style/scaladoc.html
+ */
+
+println("start S08C29_Scala_Flow_Control --------------------------------------------------")
+
+println("REPL - Read Evaluate Prints and Loop")
+
+println("start Flow Control --------------------------------------------------")
+
+println("Definition: ")
+
+println("end Flow Control --------------------------------------------------")
+
+println("end S08C29_Scala_Flow_Control --------------------------------------------------")
+
+
+println("That is Flow Control in Scala")
+println("Recap:")
+println("")
+
+println("Happy analysing!")
+
+println("READ MORE ----------------------")
+
+println("SCALA DOCUMENTATION")
+println("https://docs.scala-lang.org")
+
+println("Scala Documentation Basics")
+println("https://docs.scala-lang.org/tour/basics.html")
+
+println("Scala Language Specification")
+println("http://scala-lang.org/files/archive/spec/2.12/")
+
+println("Scala Language Specification - The Scala Standard Library")
+println("http://scala-lang.org/files/archive/spec/2.12/12-the-scala-standard-library.html")
+
+println("Scala Language - Traits")
+println("https://docs.scala-lang.org/tour/traits.html")
+
+println("JAVA DOCUMENTATION - Immutable")
+println("https://docs.oracle.com/javase/tutorial/essential/concurrency/immutable.html")
+
+println("Immutable Object - Wikipedia")
+println("https://en.wikipedia.org/wiki/Immutable_object")
+
+println("Scala Fiddle")
+println("https://scalafiddle.io/")
