@@ -10,8 +10,27 @@ println("start Collections Maps ------------------------------------------------
 
 println("Basic Collections: Lists, Sets, Maps, Arrays")
 
-println("Definition: ")
+println("Definition: Maps are key-values pair storages.")
+println("Also known as hash tables or dictionaries.")
 
+val map01 = Map(("a", 1), ("b", 2))
+
+println("Performing lookups in maps or dictionaries:")
+
+map01("b")
+println("When trying to access an element that does not exists, an error is trown:")
+println("java.util.NoSuchElementException")
+map01("z")
+
+map01 get ("a")
+map01 get ("y")
+
+println("Mutable maps:")
+val mutableMap02 = collection.mutable.Map(("z", 3),("x", 1),("y", 2))
+
+println("Useful methods for dealing with maps:")
+mutableMap02.keys
+mutableMap02.values
 
 println("end Collections Maps --------------------------------------------------")
 
@@ -20,7 +39,11 @@ println("end S07C25_Scala_Collections_Maps -------------------------------------
 
 println("That is Maps in Scala")
 println("Recap:")
-
+println("Maps have a key-value pair storage")
+println("They are also known as HashTables or dictionaries in other languages")
+println("And we have MUTABLE and IMMUTABLE version of Maps in Scala")
+println("In the MUTABLE version, we can add key-value pairs using the operator")
+println("identifier += (key -> value)")
 
 println("Happy analysing!")
 
