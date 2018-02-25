@@ -1,0 +1,59 @@
+Installing Scala and Spark in Windows
+
+Pre-requisites:
+* JDK 8
+
+A) Spark Installation:
+1. Download and install Spark
+2. http://spark.apache.org/downloads.html
+3. Download Spark: spark-2.2.0-bin-hadoop2.7.tgz
+4. Extract .tgz content; Extract .tar content
+5. winkey + R
+6. cmd
+7. mkdir c:\spark
+8. copy content extracted from step 4
+9. mkdir c:\spark\
+
+B)
+1) c:\winutils c:\winutils\bin
+2) Adicionar variáveis de ambiente (HADOOP, JAVA)
+3) Start log
+4) Start spark: spark-shell
+
+scalla>println("Hello World");
+
+C) Scala and Spark development
+
+
+https://atom.io/
+http://scala-ide.org/download/sdk.html
+
+Just like we added the Scala-Language plugin, figure out how to add a terminal plugin.
+Search for "terminal" in the Install Plugins section of Atom and download and install "platformio-ide-terminal"
+
+
+D) Scala Basic in mode REPL (Read Eval Print Loop)
+
+E) Values and Variables
+
+val = value (immutable)
+var = variables (must have the same data type when reassigning)
+
+Data Types
+Int
+Double
+String Boolean
+and Collections
+
+Instantiating an object:
+var <name>:<type> = <literal>
+var <name>:<type> = <literal>
+Scala can infer the data type, despite it must have the same data type.
+
+Identifiers Naming Rules:
+* Can not start with numbers
+* Can not have dots (.) in the middle of it
+
+
+
+
