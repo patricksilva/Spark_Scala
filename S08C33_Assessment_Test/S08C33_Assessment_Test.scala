@@ -8,7 +8,7 @@ Write a function that takes in an integer and returns a Boolean indicating wheth
 or not it is even. See if you can write this in one line!
 */
 
-def singleEven(x:Int): Boolean = {  if(x % 2 == 0){return true}else{return false}  }
+def singleEven(x:Int): x % 2 == 0
 
 println(singleEven(10))
 println(singleEven(11))
@@ -85,10 +85,7 @@ Given a String, return a boolean indicating wheter or not it is a Palindrome.
 (Spelled the same forwards and backwards). Try exploring methods to help you.
 */
 def isPalindrome(str:String): Boolean = {
-  if(str == str.reverse){
-    return true
-  }
-  return false
+  return str == str.reverse
 }
 
 println("isPalindrome(\"ana1\")")
