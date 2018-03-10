@@ -20,3 +20,13 @@ df.columns
 df.describe().show()
 
 df.select($"Volume",$"Date",$"Close").show()
+
+println("Creating new columns")
+val df2 = df.withColumn("HighPlusLow", df("High") + df("Low"))
+val df3 = df.withColumn("HighPlusLow", df($"High",$"Low"))
+
+println("Printing out the schema")
+df2.printSchema()
+
+println("Renaming a column")
+df2.select(df2("HighPlusLow").as("HPL"), df2("Close")).show()
