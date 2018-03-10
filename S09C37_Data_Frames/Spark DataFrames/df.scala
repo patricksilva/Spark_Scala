@@ -15,4 +15,8 @@ for(row <- df.head(5)){
   println(row)
 }
 
-//df.describe().show()
+df.columns
+
+df.describe().show()
+
+df.select($"Volume",$"Date",$"Close").show()
