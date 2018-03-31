@@ -22,3 +22,5 @@ dfmax.select($"Year", $"max(Close)").show()
 
 val dfmin = df2.groupBy("Year").min()
 dfmin.select($"Year", $"min(Close)").show()
+
+df2.describe().show()
