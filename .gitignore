@@ -9,3 +9,6 @@
 ### Atom Derby Metastore ###
 **/metastore_db/
 # End of https://apache.googlesource.com/spark/+/master/.gitignore
+
+**/Machine_Learning_Sections/
+**/.idea/
