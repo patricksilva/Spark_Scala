@@ -46,10 +46,14 @@ for(ind <- Range(1, colnames.length)){
 // ("label","features")
 
 // Import VectorAssembler and Vectors
+import org.apache.spark.ml.feature.VectorAssembler
+import org.apache.spark.ml.linalg.Vectors
 
 // Rename the Yearly Amount Spent Column as "label"
 // Also grab only the numerical columns from the data
 // Set all of this as a new dataframe called df
+val df = (data.select(data("Yearly Amount Spent").as("label"),$"Avg Session Length",$"Time on App",$"Time on Website",$"Length of Membership",$"Yearly Amount Spent"))
+df.printSchema
 
 // An assembler converts the input values to a vector
 // A vector is what the ML algorithm reads to train a model
@@ -58,23 +62,46 @@ for(ind <- Range(1, colnames.length)){
 // to a single output column of an array called "features"
 // Set the input columns from which we are supposed to read the values.
 // Call this new object assembler
+val assembler = (new VectorAssembler()
+    .setInputCols(
+      Array(
+          "Avg Session Length"
+        , "Time on App"
+        , "Time on Website"
+        , "Length of Membership"
+        , "Yearly Amount Spent"
+      )
+    )
+    .setOutputCol(
+      "features"
+    )
+  )
 
 // Use the assembler to transform our DataFrame to the two columns: label and features
+val output = assembler.transform(df).select($"label", $"features")
 
+output.show()
 
 // Create a Linear Regression Model object
-
+val lr = new LinearRegression()
 
 // Fit the model to the data and call this model lrModel
-
+val lrModel = lr.fit(output)
 
 // Print the coefficients and intercept for linear regression
+println(s"Coefficients: ${lrModel.coefficients}")
+println(s"Intercept: ${lrModel.intercept}")
+
 
 // Summarize the model over the training set and print out some metrics!
 // Use the .summary method off your model to create an object
 // called trainingSummary
+val trainingSummary = lrModel.summary
 
 // Show the residuals, the RMSE, the MSE, and the R^2 Values.
-
+trainingSummary.residuals.show()
+println(s"r2: ${trainingSummary.r2}") // shows how much variance is explained in our model
+println(s"RMSE: ${trainingSummary.rootMeanSquaredError}")
+println(s"MSE: ${trainingSummary.meanSquaredError}")
 
 // Great Job!
