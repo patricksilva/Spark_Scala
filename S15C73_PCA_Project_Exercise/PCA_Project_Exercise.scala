@@ -101,7 +101,10 @@ val spark = SparkSession.builder().getOrCreate()
 val data = spark.read.option("header","true").option("inferSchema","true").format("csv").load("Cancer_Data")
 // Print the Schema of the data
 data.printSchema
-// Import PCA, VectorAssembler and StandardScaler from ml.feature
+
+// TODO: review this project and reorganize sections and comments.
+
+// Import PCA, VAectorAssembler and StandardScaler from ml.feature
 import org.apache.spark.ml.feature.{PCA, VectorAssembler, StandardScaler}
 // Import Vectors from ml.linalg
 import org.apache.spark.ml.linalg.Vectors
